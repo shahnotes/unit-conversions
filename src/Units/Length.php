@@ -10,7 +10,9 @@ class Length
     /**
      * Length constructor.
      */
-    public function __construct() { }
+    public function __construct()
+    {
+    }
 
     /**
      * @return static
@@ -32,7 +34,8 @@ class Length
         }
     }
 
-    private function meterConvertTo(float $value, $to) {
+    private function meterConvertTo(float $value, $to)
+    {
         switch ($to) {
             case LengthUnit::CENTIMETER:
                 return $value * 100;
@@ -41,7 +44,8 @@ class Length
         }
     }
 
-    private function centimeterConvertTo(float $value, $to) {
+    private function centimeterConvertTo(float $value, $to)
+    {
         switch ($to) {
             case LengthUnit::METER:
                 return $value / 100;
