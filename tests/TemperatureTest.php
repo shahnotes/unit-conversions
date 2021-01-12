@@ -12,7 +12,7 @@ class TemperatureTest extends TestCase
      */
     public function it_can_convert_celsius_to_fahrenheit()
     {
-        $fahrenheit = Temperature::forCelsius(100)->toFahrenheit();
+        $fahrenheit = Temperature::fromCelsius(100)->toFahrenheit();
 
         $this->assertEquals(212, $fahrenheit);
     }

@@ -22,7 +22,7 @@ composer require shahnotes/unit-conversions
 Weight::fromKilograms(100)->toLbs();
 
 // Celsius to Fahrenheit
-Temperature::forCelsius(100)->toFahrenheit();
+Temperature::fromCelsius(100)->toFahrenheit();
 ```
 
 ## Testing
