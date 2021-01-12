@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "shahnotes/unit-conversions",
+    "description": "A simple unit conversion package",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "shahnotes",
+        "unit-conversions"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/shahnotes/unit-conversions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_homepage",
+            "name": "Harsh Shah",
+            "email": "shahharsh.210995@gmail.com",
+            "homepage": "https://shahnotes.github.io",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Shahnotes\\UnitConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Shahnotes\\UnitConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,11 +47,11 @@
     "funding": [
         {
             "type": "github",
-            "url": "https://github.com/sponsors/:vendor_name"
+            "url": "https://github.com/sponsors/shahnotes"
         },
         {
             "type": "other",
-            "url": ":author_homepage"
+            "url": "https://shahnotes.github.io"
         }
     ]
 }
