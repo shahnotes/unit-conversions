@@ -3,7 +3,7 @@
 namespace Shahnotes\UnitConversions\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Shahnotes\UnitConversions\Temperature;
+use Shahnotes\UnitConversions\Units\Temperature;
 
 class TemperatureTest extends TestCase
 {

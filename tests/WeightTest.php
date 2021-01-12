@@ -3,7 +3,7 @@
 namespace Shahnotes\UnitConversions\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Shahnotes\UnitConversions\Weight;
+use Shahnotes\UnitConversions\Units\Weight;
 
 class WeightTest extends TestCase
 {

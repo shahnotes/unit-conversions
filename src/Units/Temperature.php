@@ -1,6 +1,6 @@
 <?php
 
-namespace Shahnotes\UnitConversions;
+namespace Shahnotes\UnitConversions\Units;
 
 class Temperature
 {
