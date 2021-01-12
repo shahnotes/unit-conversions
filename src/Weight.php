@@ -11,7 +11,8 @@ class Weight
         return new static($kilograms);
     }
 
-    public function __construct(float $kilograms) {
+    public function __construct(float $kilograms)
+    {
         $this->kilograms = $kilograms;
     }
 
