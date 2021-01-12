@@ -11,7 +11,8 @@ class Temperature
         return new static($celsius);
     }
 
-    public function __construct(float $celsius) {
+    public function __construct(float $celsius)
+    {
         $this->celsius = $celsius;
     }
 
